@@ -13,8 +13,16 @@ name типа String, age типа int и city типа String.
 Должны быть объявлены 3 переменные.
 */
 
+package com.company;
 public class Main {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        String Name = "Andrey";
+        String Surname = "Pavlovskiy";
+        int Age = 45;
+        String City = "Moscow";
+        System.out.println(Name+" "+Surname);
+        System.out.println("Age "+Age);
+        System.out.println("From "+City);
     }
 }
+
