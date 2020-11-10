@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         //вводим размеры с клавиатуры
         Scanner Size = new Scanner(System.in);
-        System.out.print("Введите размеры бассейна: \n");
+        System.out.print("Введите размеры бассейна: \n"); // \n - перенос на новую строку !!!
         System.out.print("размер a = "); 
         //println - ввод сновой строки, а если просто print, то на этой же !!!
         double a = Size.nextDouble();
