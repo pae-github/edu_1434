@@ -16,13 +16,13 @@ public class Main {
         Scanner Size = new Scanner(System.in);
         System.out.print("Введите размеры бассейна: \n"); // \n - перенос на новую строку !!!
         System.out.print("размер a = "); 
-        //println - ввод сновой строки, а если просто print, то на этой же !!!
+        //println - ввод с новой строки, а если просто print, то на этой же !!!
         double a = Size.nextDouble();
         System.out.print("размер b = ");
         double b = Size.nextDouble();
         System.out.print("размер c = ");
         double c = Size.nextDouble();
-        double volume = a * b * c;
+        double volume = a * b * c*1000;
         System.out.print("количество воды, которое нужно для наполнения бассейна = "+volume+" литров");
     }
 }
